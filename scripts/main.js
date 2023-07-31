@@ -101,3 +101,27 @@ $("#plantsContainer").on('click', '.card', function(){
 
 });
 
+// ===== wishlist ======
+
+
+  // Function to remove the row when clicking the "Remove" button
+  function removeRow(buttonId) {
+    const rowToRemove = document.getElementById(buttonId).parentNode.parentNode;
+    rowToRemove.remove();
+  }
+
+  // Attach click event listeners to the "Remove" buttons
+  document.getElementById('btn1').addEventListener('click', function () {
+    removeRow('btn1');
+  });
+
+  document.getElementById('btn2').addEventListener('click', function () {
+    removeRow('btn2');
+  });
+
+  document.getElementById('btn3').addEventListener('click', function () {
+    removeRow('btn3');
+  });
+
+
+

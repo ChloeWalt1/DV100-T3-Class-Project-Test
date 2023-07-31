@@ -8,9 +8,22 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Libre Baskerville', serif;
 }
 
+h3 {
+    color: #F3F3F3;
+    margin-top: 10px;
+}
+
+h4 {
+    color: white;
+}
+
 p {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+}
+
+.plantP {
+    color:#F3F3F3;
 }
 
 /* Spacing */
@@ -105,3 +118,68 @@ button {
     position: relative;
     bottom: -100px;
 }
+
+.images {
+    height: 500px;
+    background-color: #18382B;
+    border-radius: 25px;
+    margin-top: 220px;
+    padding-top: 50px;
+}
+
+.plantF {
+    background-color: #F3F3F3;
+    border-radius: 100px;
+}
+
+.container.featured {
+    margin-bottom: -100px;
+}
+
+.slideHead {
+    margin-top: -150px
+}
+
+.theTable {
+    margin-top: 200px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* Optional: Adjust the width of the table if needed */
+  .table {
+    width: 50%; /* You can adjust this percentage to your preference */
+  }
+
+  .accordion {
+    width: 900px;
+    
+
+ }
+
+ .accordion-body {
+    background-color: #18382B; 
+    color: white;
+  } 
+ 
+  /* Custom CSS for changing the accordion header border */
+.accordion-header .accordion-button {
+    border: 2px solid white;
+  }
+
+  /* Custom CSS for changing the color of the glow to green */
+.accordion-header .accordion-button:focus {
+    outline: 2px solid green; 
+  }
+
+  /* Custom CSS for changing the focused state background color to green */
+.accordion-header .accordion-button:focus {
+    background-color: lightgray; 
+   
+  }
+  
